@@ -1,5 +1,6 @@
 package com.here;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public abstract class JsonElement<D> {
@@ -102,11 +103,28 @@ public abstract class JsonElement<D> {
                 return super.parseJson(json);
             }
         };
-
-
-        String[] parsing = json.replaceAll("'", "").replaceAll("\\{", "")
+        String[] findArray = json.replaceAll("'", "").replaceAll("\\{", "")
                 .replaceAll("}", "").replace(",", "").replace(":", " ")
-                .replace(",", " ").replaceAll("\\s+$", "").split(" ");
+                .replace(",", "").split("List");
+
+        String firstNoArray = findArray[0];
+        String[] splitArray = findArray[1].split("] ");
+        String secondNoArray = splitArray[1];
+        String[] array = splitArray[0].replaceAll(" \\[", "").replace(",", "").split(" ");
+
+
+        StringBuilder fullList = new StringBuilder();
+        fullList.append(firstNoArray);
+        fullList.append(secondNoArray);
+
+        String[] parsing = fullList.toString().replaceAll("\\s+$", "").split(" ");
+
+        List<D> objectList = new ArrayList<>();
+        for (int i = 0; i < array.length; i++) {
+            objectList.add((D) array[i]);
+        }
+        js.setArray(objectList);
+
 
         for (int i = 0; i < parsing.length; i++) {
             if (parsing[i].equals("name")) {
