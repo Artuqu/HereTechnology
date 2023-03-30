@@ -18,32 +18,33 @@ public class SortAnArray {
         }
     }
 
-    public static void sort2(int[] array) {
+    public static void ownSort(int[] array) {
         int[] sortedArray = new int[array.length];
         System.arraycopy(array, 0, sortedArray, 0, array.length);
 
-        for (int i = 1; i < array.length; i++) {
-            int j = i - 1;
-            int bigger = array[i];
-
-            while (j >= 0 && bigger < array[j]) {
-                sortedArray[j + 1] = sortedArray[j];
-                j = j - 1;
+            for (int j = 0; j < array.length - 1; j++) {
+                int first = sortedArray[j];
+                int second = sortedArray[j + 1];
+                while (first > second && j >= 0) {
+                    sortedArray[j] = second;
+                    sortedArray[j + 1] = first;
+                    j--;
+                    if (j >= 0) {
+                        first = sortedArray[j];
+                        second = sortedArray[j + 1];
+                    }
+                }
             }
-            sortedArray[j + 1] = bigger;
-        }
 
         for (Integer i : sortedArray) {
             System.out.println(i);
-
         }
     }
-
 
     public static void main(String[] args) {
         int[] array = new int[]{1, 9, 3, -4, 3, -11, 7};
         sort(array);
-        sort2(array);
+        ownSort(array);
     }
 
 }
