@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d6e8cffb-f8bc-43a0-843a-f4e27ff03f79" name="Changes" comment="Classes updated">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/here/Objects/Directory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/here/Objects/File.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/here/CalculateDirectorySize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/here/CalculateDirectorySize.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2NebnE0pNFFGNX5RmJvtBdeRtlz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/artur/Dokumenty/GitHub/Hacker30Days",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.CalculateDirectorySize">
+    <configuration name="CalculateDirectorySize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.here.CalculateDirectorySize" />
+      <module name="HereTechnology" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.here.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CalculateMaxTreeDepth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.here.CalculateMaxTreeDepth" />
+      <module name="HereTechnology" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.here.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FindElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.here.FindElement" />
+      <module name="HereTechnology" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.here.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Man" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.here.Man" />
+      <module name="HereTechnology" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.here.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.here.SortAnArray" />
+      <module name="HereTechnology" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.here.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CalculateDirectorySize" />
+        <item itemvalue="Application.Man" />
+        <item itemvalue="Application.CalculateMaxTreeDepth" />
+        <item itemvalue="Application.SortAnArray" />
+        <item itemvalue="Application.FindElement" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6e8cffb-f8bc-43a0-843a-f4e27ff03f79" name="Changes" comment="" />
+      <created>1680027659435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680027659435</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Immutable Person">
+      <created>1680030195435</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680030195443</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Sort Array one way">
+      <created>1680030230788</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1680030230788</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Find Element">
+      <created>1680030257042</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1680030257042</updated>
+    </task>
+    <task id="LOCAL-00004" summary="git ignore">
+      <created>1680030307069</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1680030307069</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Json">
+      <created>1680117394911</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1680117394912</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Object for Json">
+      <created>1680117427578</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1680117427578</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Sort Array second way">
+      <created>1680193867699</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680193867699</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Binary Tree Depth">
+      <created>1680198083862</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680198083862</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Classes updated">
+      <created>1680200931586</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680200931586</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Immutable Person" />
+    <MESSAGE value="Sort Array one way" />
+    <MESSAGE value="Find Element" />
+    <MESSAGE value="git ignore" />
+    <MESSAGE value="Json" />
+    <MESSAGE value="Object for Json" />
+    <MESSAGE value="Sort Array second way" />
+    <MESSAGE value="Binary Tree Depth" />
+    <MESSAGE value="Classes updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Classes updated" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HereTechnology$SortAnArray.ic" NAME="SortAnArray Coverage Results" MODIFIED="1680193427966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.here.*</FILTER>
+    </SUITE>
+  </component>
+</project>
