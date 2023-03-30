@@ -18,7 +18,7 @@ public class CalculateDirectorySize {
         return filesNameList;
     }
 
-    List<String> listDirectories(String dir) {
+   static List<String> listDirectories(String dir) {
         directoriesNameList.add(dir);
         return directoriesNameList;
     }
@@ -27,7 +27,7 @@ public class CalculateDirectorySize {
         return Long.parseLong(file);
     }
 
-    long directorySize(String directory) {
+    static long directorySize(String directory) {
         return Long.parseLong(directory);
     }
 
@@ -35,8 +35,8 @@ public class CalculateDirectorySize {
     public static void main(String[] args) {
 
         List<File> fullFileList = new ArrayList<>();
-        filesNameList.add("dir");
-        filesNameList.add("dir2");
+        listFiles("dir");
+        listFiles("dir2");
         filesSizeList.add(fileSize("2000"));
         filesSizeList.add(fileSize("3000"));
 
@@ -45,9 +45,9 @@ public class CalculateDirectorySize {
 
         Collections.addAll(fullFileList, file, file2);
 
-        directoriesNameList.add("newDirectory");
+        listDirectories("newDirectory");
 
-        Directory directory = new Directory(directoriesNameList.get(0), fullFileList);
+        Directory directory = new Directory(directoriesNameList.get(0), directorySize("20"), fullFileList);
 
         calculateDirectorySize(directory);
 
@@ -55,10 +55,10 @@ public class CalculateDirectorySize {
 
     private static void calculateDirectorySize(Directory directory) {
         List<File> files = directory.getFiles();
-        int size = 0;
+        long size = directory.getSize();
         for (int i = 0; i < files.size(); i++) {
             size += files.get(i).getSize();
         }
-        System.out.println("Size of " + directory.getName() + " " + "is " + size);
+        System.out.println("Size of " + directory.getFileName() + " " + "is " + size);
     }
 }

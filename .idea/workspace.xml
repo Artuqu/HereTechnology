@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6e8cffb-f8bc-43a0-843a-f4e27ff03f79" name="Changes" comment="Calculate Directory Size full solution">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/here/JsonElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/here/JsonElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/here/Man.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/here/Man.java" afterDir="false" />
+    <list default="true" id="d6e8cffb-f8bc-43a0-843a-f4e27ff03f79" name="Changes" comment="Json Element updated">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/here/CalculateDirectorySize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/here/CalculateDirectorySize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/here/Objects/Directory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/here/Objects/Directory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +39,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Man">
+  <component name="RunManager" selected="Application.CalculateDirectorySize">
     <configuration name="CalculateDirectorySize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.here.CalculateDirectorySize" />
       <module name="HereTechnology" />
@@ -108,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Man" />
         <item itemvalue="Application.CalculateDirectorySize" />
+        <item itemvalue="Application.Man" />
         <item itemvalue="Application.CalculateMaxTreeDepth" />
         <item itemvalue="Application.SortAnArray" />
         <item itemvalue="Application.FindElement" />
@@ -195,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680201358430</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Json Element updated">
+      <created>1680203687697</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680203687697</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,7 +226,8 @@
     <MESSAGE value="Binary Tree Depth" />
     <MESSAGE value="Classes updated" />
     <MESSAGE value="Calculate Directory Size full solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="Calculate Directory Size full solution" />
+    <MESSAGE value="Json Element updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Json Element updated" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/HereTechnology$SortAnArray.ic" NAME="SortAnArray Coverage Results" MODIFIED="1680193427966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
