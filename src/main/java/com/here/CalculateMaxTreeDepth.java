@@ -1,7 +1,7 @@
 package com.here;
 
 
-import com.here.binaryTree.Node;
+import com.here.Objects.Node;
 
 public class CalculateMaxTreeDepth extends Node {
 
