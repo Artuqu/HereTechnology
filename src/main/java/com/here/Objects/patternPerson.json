@@ -1,0 +1,11 @@
+{
+  "name": "John",
+  "age": "30",
+  "car": "null",
+  "cars": [
+    "Ford",
+    "BMW",
+    "Mazda"
+  ],
+  "blonde": "true"
+}
