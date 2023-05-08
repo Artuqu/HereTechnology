@@ -1,10 +1,8 @@
 package com.here;
 
-import com.fasterxml.jackson.core.JsonParser;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.here.Objects.Man;
-import netscape.javascript.JSObject;
 
 import java.io.FileReader;
 import java.io.IOException;
@@ -33,7 +31,7 @@ public class JsonElement {
     public static void main(String[] args) throws IOException {
 
         String o =
-                "{\"name\":\"Johna\", \"age\": \"40\", \"car\": \"object\" , \"cars\": [\"Ford\", \"BMW\", \"Mazda\"], \"blonde\":\"false\"}";
+                "{\"name\":\"Emily\", \"age\": \"40\", \"car\": \"object\" , \"cars\": [\"Ford\", \"BMW\", \"Mazda\"], \"blonde\":\"false\"}";
 
         parseJson(o);
         parseJson();
